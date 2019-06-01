@@ -1,6 +1,6 @@
 {
   "name": "react-instagram-feed",
-  "version": "0.1.3-alpha",
+  "version": "0.1.4-alpha",
   "description": "Component for Instagram feeds",
   "main": "dist/react-instagram-feed.js",
   "author": "wonism",
