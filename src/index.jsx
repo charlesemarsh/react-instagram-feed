@@ -199,12 +199,13 @@ export default class Feed extends PureComponent {
               )(properties) :
               fp.set('key', fp.get('id')(image))(properties),
             [
+              <div className={'instafeed-image'}>
               <img
                 key="image"
                 className="igf-image"
                 src={fp.get(`images.${FULL_RESOLUTION_PROPERTY[resolution]}.url`)(image)}
                 alt={fp.get('id')(image)}
-              />,
+              /></div>,
               <span
                 key="like"
                 className="igf-like"
