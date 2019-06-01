@@ -191,7 +191,7 @@ export default class Feed extends PureComponent {
           // TODO 1: make carousel with carousel_media if type was carousel
           // TODO 2: make video if type was video
           const imageWrapper = createElement(
-            hasLink ? 'a' : 'span',
+            hasLink ? 'a' : 'div',
             hasLink ?
               fp.flow(
                 fp.set('href', fp.get('link')(image)),
